@@ -23,7 +23,7 @@ public class Financing {
   }
 
   public void setTotalAmount(Double totalAmount) {
-    validateFinancing(totalAmount, totalAmount, months);
+    validateFinancing(totalAmount, income, months);
     this.totalAmount = totalAmount;
   }
 
