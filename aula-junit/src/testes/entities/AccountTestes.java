@@ -20,4 +20,18 @@ public class AccountTestes {
     // Assert
     Assertions.assertEquals(expectedValue, acc.getBalance());
   }
+
+  @Test
+  public void depositShouldDoNothingWhenNegativeAmount() {
+    // Arrange
+    double expectedValue = 100.0;
+    Account acc = new Account(1L, expectedValue);
+    double amount = -200.0;
+    
+    // Act
+    acc.deposit(amount);
+    
+    // Assert
+    Assertions.assertEquals(expectedValue, acc.getBalance());
+  }
 }
