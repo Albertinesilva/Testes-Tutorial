@@ -1,10 +1,10 @@
-package testes.entities;
+package aula.testes.entities;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import entities.Account;
-import testes.factory.AccountFactory;
+import aula.testes.factory.AccountFactory;
+import aula.entities.Account;
 
 public class AccountTestes {
 

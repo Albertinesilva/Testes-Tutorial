@@ -1,6 +1,6 @@
-package testes.factory;
+package aula.testes.factory;
 
-import entities.Account;
+import aula.entities.Account;
 
 public class AccountFactory {
 

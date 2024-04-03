@@ -1,4 +1,4 @@
-package entities;
+package aula.entities;
 
 public class Account {
 
